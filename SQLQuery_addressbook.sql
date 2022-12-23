@@ -25,3 +25,9 @@ update Address_Book set zip ='400012' where FirstName ='Ravi';
 delete from Address_Book where FirstName ='Ravi' and LastName='K';
 ----To view Deleted contact----
 select * from Address_Book
+----Add different state and city contacts--
+insert into Address_Book values('Raj','K','hno.28-12-220 aaa','xyz','mumbai',400001,987653421,'rj22@gmail.com')
+insert into Address_Book values('Rahim','V','hno.1-12-220 bbb','zyx','rajasthan',570501,989653421,'rh55@gmail.com')
+insert into Address_Book values('Rajinth','G','hno.1-41-20 ccc','zxy','tamilnadu',504081,987659421,'rjh12@gmail.com')
+----UC6-Ability to Retrieve Person belonging to a City or State from the Address Book----
+select * from Address_Book where City ='hyderabad' and State='TS';
