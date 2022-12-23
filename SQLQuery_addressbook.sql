@@ -30,7 +30,10 @@ insert into Address_Book values('Raj','K','hno.28-12-220 aaa','xyz','mumbai',400
 insert into Address_Book values('Rahim','V','hno.1-12-220 bbb','zyx','rajasthan',570501,989653421,'rh55@gmail.com')
 insert into Address_Book values('Rajinth','G','hno.1-41-20 ccc','zxy','tamilnadu',504081,987659421,'rjh12@gmail.com')
 insert into Address_Book values('anand','G','hno.1-11-20 gokhulnagar','secunderbad','TS',504081,987659421,'angg@gmail.com')
+insert into Address_Book values('bablu','k','hno.11-11-20 gokhulnagar','secunderbad','TS',504581,986659421,'ank@gmail.com')
+insert into Address_Book values('chandrakanth','L','hno.51-11-20 gokhulnagar','secunderbad','TS',514081,987859421,'nnn@gmail.com')
 ------UC6-Ability to Retrieve Person belonging to a City or State from the Address Book----
 select * from Address_Book where City ='hyderabad' or State='TS';
-------UC7-Ability to Retrieve Person belonging to a City and State from the Address Book----
+------UC7-Ability to Retrieve Person contact belonging to a City and State from the Address Book----
 select * from Address_Book where City ='hyderabad' and State='TS';
+
