@@ -21,3 +21,7 @@ update Address_Book set City ='pune' where FirstName ='Ravi';
 update Address_Book set Address ='H.no 18-56-89 bindi' where FirstName ='Ravi';
 update Address_Book set state ='mumbai' where FirstName ='Ravi';
 update Address_Book set zip ='400012' where FirstName ='Ravi';
+--Uc4-Delete Contact--
+delete from Address_Book where FirstName ='Ravi' and LastName='K';
+----To view Deleted contact----
+select * from Address_Book
