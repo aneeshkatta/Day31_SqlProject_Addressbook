@@ -42,5 +42,6 @@ select * from Address_Book ORDER BY FirstName ASC;
 --Alter addressbook to add name category and type--
 alter table Address_Book add Addressbookname Char(1); 
 alter table Address_Book add Type Char(1);
-
+--Uc-10 Count persons---
+SELECT COUNT(City) as PersonsCount from Address_Book;
 
