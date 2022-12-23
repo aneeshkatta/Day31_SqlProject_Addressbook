@@ -38,3 +38,9 @@ select * from Address_Book where City ='hyderabad' or State='TS';
 select * from Address_Book where City ='hyderabad' and State='TS';
 --UC8-Ability to Retrieve Person contact in Ascending order---
 select * from Address_Book ORDER BY FirstName ASC;
+--Uc9-Ability to identify each Address Book with name(Family, Friends,..) and Type----
+--Alter addressbook to add name category and type--
+alter table Address_Book add Addressbookname Char(1); 
+alter table Address_Book add Type Char(1);
+
+
