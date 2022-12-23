@@ -36,4 +36,5 @@ insert into Address_Book values('chandrakanth','L','hno.51-11-20 gokhulnagar','s
 select * from Address_Book where City ='hyderabad' or State='TS';
 ------UC7-Ability to Retrieve Person contact belonging to a City and State from the Address Book----
 select * from Address_Book where City ='hyderabad' and State='TS';
-
+--UC8-Ability to Retrieve Person contact in Ascending order---
+select * from Address_Book ORDER BY FirstName ASC;
