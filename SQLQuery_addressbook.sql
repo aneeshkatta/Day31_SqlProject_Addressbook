@@ -16,4 +16,8 @@ insert into Address_Book values('Rakesh','V','hno.1-11-220 dilshuknagar','hydera
 insert into Address_Book values('Rajender','G','hno.1-1-20 lbnagar','hyderabad','TS',500081,987659421,'rv@gmail.com')
 --To view inserted contact--
 select * from Address_Book
-
+--Uc4-Edit Contact--
+update Address_Book set City ='pune' where FirstName ='Ravi';
+update Address_Book set Address ='H.no 18-56-89 bindi' where FirstName ='Ravi';
+update Address_Book set state ='mumbai' where FirstName ='Ravi';
+update Address_Book set zip ='400012' where FirstName ='Ravi';
