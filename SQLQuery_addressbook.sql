@@ -1,5 +1,5 @@
 --UC2 Creating table 
-create table AddressBookTable
+create table AddressBook
 (
 firstName varchar (200),
 lastName varchar(200) ,
