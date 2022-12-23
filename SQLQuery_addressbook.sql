@@ -32,3 +32,5 @@ insert into Address_Book values('Rajinth','G','hno.1-41-20 ccc','zxy','tamilnadu
 insert into Address_Book values('anand','G','hno.1-11-20 gokhulnagar','secunderbad','TS',504081,987659421,'angg@gmail.com')
 ------UC6-Ability to Retrieve Person belonging to a City or State from the Address Book----
 select * from Address_Book where City ='hyderabad' or State='TS';
+------UC7-Ability to Retrieve Person belonging to a City and State from the Address Book----
+select * from Address_Book where City ='hyderabad' and State='TS';
